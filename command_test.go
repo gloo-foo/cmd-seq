@@ -4,8 +4,9 @@ import (
 	"context"
 	"testing"
 
-	command "github.com/gloo-foo/cmd-seq"
 	gloo "github.com/gloo-foo/framework"
+
+	command "github.com/gloo-foo/cmd-seq"
 )
 
 func collect(t *testing.T, src gloo.Source[[]byte]) []string {

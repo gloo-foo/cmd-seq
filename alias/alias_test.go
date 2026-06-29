@@ -5,8 +5,9 @@ import (
 	"slices"
 	"testing"
 
-	seq "github.com/gloo-foo/cmd-seq/alias"
 	gloo "github.com/gloo-foo/framework"
+
+	seq "github.com/gloo-foo/cmd-seq/alias"
 )
 
 // The alias package re-exports the constructor and flags under unprefixed

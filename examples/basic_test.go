@@ -1,8 +1,9 @@
 package seq_test
 
 import (
-	command "github.com/gloo-foo/cmd-seq"
 	"github.com/gloo-foo/framework/patterns"
+
+	command "github.com/gloo-foo/cmd-seq"
 )
 
 func ExampleSeq_basic() {

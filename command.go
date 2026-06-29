@@ -97,8 +97,8 @@ func (b bounds) inRange(n float64) bool {
 // seqSource is the immutable Source produced by Seq. It holds only the parsed
 // bounds and flags; all derived state is computed per Stream call.
 type seqSource struct {
-	bounds bounds
 	flags  flags
+	bounds bounds
 }
 
 // Stream renders the sequence into a byte stream. With a separator the whole
